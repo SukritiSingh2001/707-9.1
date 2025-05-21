@@ -9,7 +9,7 @@ public class LoginServiceTest {
 
     @Test
     public void testValidLogin() {
-        assertTrue(loginService.validateStudentLogin("s123456", "password123"));
+        assertTrue(loginService.validateStudentLogin("s1234567", "password123"));
     }
 
     @Test
